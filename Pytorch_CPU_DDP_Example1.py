@@ -5,6 +5,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.nn.parallel import DistributedDataParallel as DDP
 import os
+import pandas as pd
 
 """
 간단한 모델로의 예시
